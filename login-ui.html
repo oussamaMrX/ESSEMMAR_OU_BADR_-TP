@@ -1,0 +1,33 @@
+<!-- File: simple-login.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Login</h1>
+
+    <!-- A minimal form with name, age and password -->
+    <form action="#" method="post" class="login-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" min="0" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Sign in</button>
+    </form>
+
+    <p class="note">This is a simple static page. Add server-side code to actually authenticate users.</p>
+  </main>
+</body>
+</html>
+
+
